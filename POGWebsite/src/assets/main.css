@@ -1,0 +1,137 @@
+body {
+  height: 100vh;
+  margin: 0;
+  padding: 0px auto;
+  /* margin: auto 0 0 0;
+  min-height: 94vh; */
+  /* background-attachment: fixed;
+  background: linear-gradient(
+    135deg,
+    #7ed957 0%,
+    #0097b2 25%,
+    #7ed957 50%,
+    #0097b2 75%,
+    #7ed957 100%
+  ); */
+}
+
+/* The next section is for text content */
+.content-wrapper {
+  align-self: space-around;
+  min-height: 100%;
+  width: auto;
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+  background-attachment: fixed;
+  background: linear-gradient(
+    135deg,
+    #000000aa 0%,
+    #000000ff 25%,
+    #000000aa 50%,
+    #000000ff 75%,
+    #000000aa 100%
+  );
+  /* margin: 0;
+  padding: auto; */
+}
+
+.textbox {
+  justify-content: space-around;
+  align-content: center;
+  margin: auto;
+  font-family: serif;
+  padding: 0;
+  align-self: center;
+  max-width: 1200px;
+}
+
+.text {
+  height: 100%;
+  width: 88%;
+  min-width: none;
+  max-width: 94%;
+  padding: auto;
+  margin: auto;
+  vertical-align: middle;
+  align-self: center;
+  background-attachment: fixed;
+  background: #ffffffa7;
+}
+
+.textbox h1 {
+  padding: auto;
+  font-size: 45px;
+  font-weight: 600;
+  margin: 0;
+  text-align: center;
+  /* padding: 12vh 0 0 0; */
+}
+
+.textbox p {
+  text-align: center;
+  margin: 3vh auto 3vh auto;
+  /* padding: auto; */
+  font-size: 32px;
+  font-weight: 500;
+  max-width: 80%;
+}
+
+.textbox .p1 {
+  text-align: center;
+  margin: 3vh auto 0 auto;
+  /* padding: auto; */
+  font-size: 24px;
+  font-weight: 900;
+  max-width: 80%;
+}
+
+a {
+  text-decoration: none;
+  color: #0097b2;
+}
+
+a:hover {
+  color: #25964aaa;
+}
+
+.banner {
+  color: #000000;
+  margin: auto;
+  justify-content: center;
+  min-width: none;
+  width: 80%;
+  max-width: 1200px;
+  padding: 3vh auto 3vh;
+  border-bottom: 4px solid #000000;
+}
+
+/*This section is for adjusting media sizes*/
+@media (max-width: 420px) {
+  .textbox h1 {
+    font-size: 32px;
+  }
+
+  .textbox p {
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 320px) {
+  .textbox h1 {
+    font-size: 28px;
+  }
+
+  .textbox p {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 240px) {
+  .textbox h1 {
+    font-size: 22px;
+  }
+
+  .textbox p {
+    font-size: 14px;
+  }
+}
